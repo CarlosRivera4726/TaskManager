@@ -98,10 +98,10 @@ public class TaskManager extends javax.swing.JFrame {
 
         bg_title.setBackground(new java.awt.Color(12, 29, 54));
         bg_title.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Logo_Task_Manager.png"))); // NOI18N
+        bg_title.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 255), 2, true));
         bg.add(bg_title, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 0, 290, 590));
 
         form.setBackground(new java.awt.Color(12, 29, 54));
-        form.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 255), 2, true));
 
         lblUser.setFont(lblUser.getFont().deriveFont(lblUser.getFont().getStyle() | java.awt.Font.BOLD, 28));
         lblUser.setForeground(new java.awt.Color(255, 255, 255));
@@ -177,7 +177,7 @@ public class TaskManager extends javax.swing.JFrame {
                         .addComponent(txtPassword, javax.swing.GroupLayout.DEFAULT_SIZE, 364, Short.MAX_VALUE)
                         .addComponent(txtUser)
                         .addComponent(jSeparator1)))
-                .addContainerGap(58, Short.MAX_VALUE))
+                .addContainerGap(62, Short.MAX_VALUE))
         );
         formLayout.setVerticalGroup(
             formLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -196,7 +196,7 @@ public class TaskManager extends javax.swing.JFrame {
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34)
                 .addComponent(btnIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(127, Short.MAX_VALUE))
+                .addContainerGap(125, Short.MAX_VALUE))
         );
 
         bg.add(form, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 520, 590));
