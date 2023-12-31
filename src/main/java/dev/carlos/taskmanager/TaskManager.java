@@ -1,7 +1,9 @@
 package dev.carlos.taskmanager;
 
-import dev.carlos.resources.CustomColors;
+import dev.carlos.colors.CustomColors;
 import java.awt.Color;
+import javax.swing.ImageIcon;
+
 
 /**
  *
@@ -95,7 +97,7 @@ public class TaskManager extends javax.swing.JFrame {
         bg.add(topBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, -1));
 
         bg_title.setBackground(new java.awt.Color(12, 29, 54));
-        bg_title.setIcon(new javax.swing.ImageIcon("/home/carlos/NetBeansProjects/TaskManager/src/main/java/dev/carlos/resources/Logo_Task_Manager.png")); // NOI18N
+        bg_title.setIcon(new javax.swing.ImageIcon("/home/carlos/NetBeansProjects/TaskManager/resources/Logo_Task_Manager.png")); // NOI18N
         bg.add(bg_title, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 0, 290, 590));
 
         form.setBackground(new java.awt.Color(12, 29, 54));

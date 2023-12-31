@@ -131,7 +131,7 @@
               <Color blue="36" green="1d" red="c" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/home/carlos/NetBeansProjects/TaskManager/src/main/java/dev/carlos/resources/Logo_Task_Manager.png"/>
+              <Image iconType="2" name="/home/carlos/NetBeansProjects/TaskManager/resources/Logo_Task_Manager.png"/>
             </Property>
           </Properties>
           <Constraints>
